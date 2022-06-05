@@ -15,6 +15,8 @@ jobs:
         include:
           - username: ZJU_USERNAME
             password: ZJU_PASSWORD
+          - username: ZJU_USERNAME2
+            password: ZJU_PASSWORD2
     steps:
       - name: 打卡
         uses: zju-health-report/action@release
